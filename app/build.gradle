@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs'
 }
 
 android {
@@ -62,11 +64,9 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_version"
     annotationProcessor "com.google.dagger:hilt-compiler:$hilt_version"
 
-    // lombok
-    //annotationProcessor 'org.projectlombok:lombok:1.18.12'
-    //annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    // lombok dependencies
+    implementation 'org.projectlombok:lombok:1.18.22'
     annotationProcessor "org.projectlombok:lombok:1.18.22"
-    //annotationProcessor 'org.projectlombok:lombok:1.18.12'
 
     //test dependencies
     testImplementation 'junit:junit:4.13.2'
