@@ -31,6 +31,8 @@ To build this project, you require:
 - [Lombok](https://projectlombok.org/setup/android)
 - [Android View Binding](https://developer.android.com/topic/libraries/view-binding)
 
+## Testing
+Testing is done with Mockito, and JUnit testing framework
 
 ## Building issue that may arise.
 When cloning the project, you might have this issues, following the screenshot, change your gradle JDK to version 11, the problem should be fixed.
@@ -48,9 +50,6 @@ https://user-images.githubusercontent.com/43546652/147707414-90ac16c1-0411-4462-
 
 <img width="330" alt="Screenshot 2021-12-29 at 3 37 28 PM" src="https://user-images.githubusercontent.com/43546652/147707585-3b6a97c4-efc2-4340-b726-324fed15d866.png">
 
-
-## Testing
-Testing is done with Mockito, and JUnit testing framework
 
 ## Author
 Utibe Etim
