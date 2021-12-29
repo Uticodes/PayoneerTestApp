@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 public class Results<T> {
     @Nullable
-    State results;
+    Status status;
 
     @Nullable
     T data;
@@ -17,21 +17,21 @@ public class Results<T> {
     @Nullable
     String message;
 
-    private Results(@Nullable State results, @Nullable T data, @Nullable String message) {
-        this.results = results;
+    private Results(@Nullable Status status, @Nullable T data, @Nullable String message) {
+        this.status = status;
         this.data = data;
         this.message = message;
     }
 
     public static <T> Results<T> success(T data) {
-        return new Results<>(State.SUCCESS, data, "Successful");
+        return new Results<>(Status.SUCCESS, data, "Successful");
     }
 
     public static <T>Results<T> error(String error) {
-        return new Results<>(State.ERROR, null, error);
+        return new Results<>(Status.ERROR, null, error);
     }
 
-    public enum State {ERROR, SUCCESS}
+    public enum Status {ERROR, SUCCESS}
 }
 
 

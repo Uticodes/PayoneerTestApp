@@ -5,10 +5,23 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/paymentMethodsFragment">
 
-
     <fragment
         android:id="@+id/paymentMethodsFragment"
         android:name="com.uticodes.payoneerandroidtest.presentation.PaymentMethodsFragment"
         android:label="PaymentMethodsFragment"
-        tools:layout="@layout/payment_methods_fragment"/>
+        tools:layout="@layout/payment_methods_fragment">
+        <action
+            android:id="@+id/paymentMethodsFragment_to_errorDialog"
+            app:destination="@id/errorDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/errorDialog"
+        android:name="com.uticodes.payoneerandroidtest.utils.ErrorDialog"
+        android:label="ErrorDialog"
+        tools:layout="@layout/error_dialog">
+
+        <argument
+            android:name="response"
+            app:argType="string" />
+    </dialog>
 </navigation>
