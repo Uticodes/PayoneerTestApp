@@ -4,6 +4,9 @@
 This project implements a scrollable list of payment methods.
 For each payment method, it shows the method logo and label
 
+## Language:
+* 100% Java
+
 ## Features
 * MVVM
 * Rx-Java
@@ -34,6 +37,10 @@ To build this project, you require:
 
 ## Screenshots
 
+
+
+## Testing
+Testing is done with Mockito, and JUnit testing framework
 
 ## Author
 Utibe Etim
