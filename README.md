@@ -33,10 +33,20 @@ To build this project, you require:
 
 
 ## Building issue that may arise.
+When cloning the project, you might have this issues, following the screenshot, change your gradle JDK to version 11, the problem should be fixed.
+
+<img width="986" alt="issues" src="https://user-images.githubusercontent.com/43546652/147707634-90ed3103-a513-4ac7-87bf-72ff96a4eff7.png">
 
 
 ## Screenshots
 
+https://user-images.githubusercontent.com/43546652/147707414-90ac16c1-0411-4462-a22d-29c4cf36ef38.mp4
+
+<img width="293" alt="Screenshot 2021-12-29 at 3 30 00 PM" src="https://user-images.githubusercontent.com/43546652/147707485-375720c8-b70f-42ec-b1ef-3527e25cbde1.png">
+
+<img width="330" alt="Screenshot 2021-12-29 at 3 36 17 PM" src="https://user-images.githubusercontent.com/43546652/147707502-983510d2-0221-4551-a52e-7fee8d78400b.png">
+
+<img width="330" alt="Screenshot 2021-12-29 at 3 37 28 PM" src="https://user-images.githubusercontent.com/43546652/147707585-3b6a97c4-efc2-4340-b726-324fed15d866.png">
 
 
 ## Testing
