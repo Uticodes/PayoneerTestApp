@@ -21,6 +21,9 @@ To build this project, you require:
 - Gradle 7.0.0+
 - You may require Java 11 to run
 
+## Install Apk
+To install the app apk for testing, you can download the apk from apk folder or by click [here](https://drive.google.com/file/d/1CBF1_jI8XJWDbn4C_4uQAv-mE--iodb0/view?usp=sharing) to download the apk
+
 
 ## Libraries
 - [Viewmodel](https://developer.android.com/topic/libraries/architecture/viewmodel) - ViewModel for persisting view state across config changes
